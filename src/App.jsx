@@ -19,7 +19,6 @@ function App(props) {
 const [theme, setTheme] = useState(true);
 let body = document.querySelector('body');
 
-
 if(!theme){
   body.style.backgroundColor = "#131313";
 }else{
