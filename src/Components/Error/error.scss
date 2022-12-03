@@ -1,0 +1,23 @@
+.Error{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    .error-wrapper{
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        h1{
+            font-size: 80px !important;
+        }
+
+        p{
+            font-size: 14px;
+        }
+    }
+}
