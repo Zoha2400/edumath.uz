@@ -14,7 +14,7 @@ function LinkSearch(props) {
 }   
 
   return (
-    <NavLink onClick={closeWin} className={setActive} to={'/Math' + props.link}>
+    <NavLink onClick={closeWin} className={setActive} key={props.key} to={'/Math' + props.link}>
       <div className='msearch-item-wrapper'>
         <div className='msearch-item'>
             <span>{props.theme}</span>

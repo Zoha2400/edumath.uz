@@ -10,7 +10,7 @@ function MathMenuitem(props) {
 
   return (
     <NavLink className={setActive} to={'/Math' + props.link}>
-      <p className='m-item'>{props.theme}</p>
+      <p className='m-item' key={props.key}>{props.theme}</p>
     </NavLink>
   )
 }

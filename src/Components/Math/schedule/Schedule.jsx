@@ -6,7 +6,7 @@ function ScheduleMath(props) {
 
   let items = props.nameArr.map((i) => {
     return(
-      <MathMenuitem link={i[1]} theme={i[0]}/>
+      <MathMenuitem link={i[1]} theme={i[0]} key={i[2]}/>
     )
   });
 

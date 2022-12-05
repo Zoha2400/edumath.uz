@@ -6,17 +6,17 @@ import reportWebVitals from './reportWebVitals';
 import {BrowserRouter} from "react-router-dom";
 
 const basicMath = [
-  ['Дроби','/droby'],
-  ['Дробные операции','/droby'],
-  ['Многоэтажные Дроби','/droby'],
-  ['Производные','/diff'],
-  ['Функции','/functions']
+  ['Дроби','/droby', 1],
+  ['Дробные операции','/droby_oper', 2],
+  ['Многоэтажные Дроби','/droby_mnogoetajnye', 3],
+  ['Производные','/diff', 4],
+  ['Функции','/functions', 5]
 ]
 
 const mathAnalysis = [
-  ['Дроби','/droby'],
-  ['Производные','/diff'],
-  ['Функции','/functions']
+  ['Дроби','/droby', 1],
+  ['Производные','/diff', 2],
+  ['Функции','/functions', 3]
 ]
 
 const forImportArrs = [basicMath, mathAnalysis];

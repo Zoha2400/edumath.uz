@@ -14,6 +14,7 @@ import Error from "./Components/Error/Error";
 import Droby from "./Components/Math/math-content/mathThemes/Droby";
 import Diff from "./Components/Math/math-content/mathThemes/Diff";
 
+
 function App(props) {
   
 const [theme, setTheme] = useState(true);
@@ -24,6 +25,7 @@ if(!theme){
 }else{
   body.style.backgroundColor = "#ffffff";
 }
+
 
 return (
       <div className={theme ? 'App day' : 'App night'}>
